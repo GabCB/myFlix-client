@@ -27,7 +27,7 @@ export const MainView = () => {
       title: "Man on fire",
       description:"Former CIA SAD/SOG officer John W. Creasy visits his old friend Paul Rayburn in Mexico. Rayburn convinces him to take a bodyguard position with Samuel Ramos, a Mexico City automaker whose young daughter Lupita Pita requires a bodyguard for her kidnapping insurance policy to take effect.",
       image:
-        "https://en.wikipedia.org/wiki/Man_on_Fire_(2004_film)#/media/File:Man_on_fireposter.jpg",
+        "https://www.imdb.com/title/tt0328107/mediaviewer/rm3032648704/?ref_=tt_md_3",
       genre:"Drama",
       director: "Tony Scott"
     }
