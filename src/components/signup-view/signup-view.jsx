@@ -55,7 +55,7 @@ export const SignupView = () => {
         />
       </label>
       <label>
-        Emmail:
+        Email:
         <input
           type="email"
           value={email}

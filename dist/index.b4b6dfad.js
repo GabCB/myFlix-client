@@ -28569,7 +28569,7 @@ const SignupView = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                 children: [
-                    "Emmail:",
+                    "Email:",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                         type: "email",
                         value: email,
