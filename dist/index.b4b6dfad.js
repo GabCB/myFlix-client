@@ -28398,9 +28398,9 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _s = $RefreshSig$();
-const LoginView = ()=>{
+const LoginView = ({ onLoggedIn  })=>{
     _s();
-    const [username, setUnsername] = (0, _react.useState)("");
+    const [username, setUsername] = (0, _react.useState)("");
     const [password, setPassword] = (0, _react.useState)("");
     const handleSubmit = (event)=>{
         //this prevents the default behaviour of the form which is to reload the entire page
@@ -28427,12 +28427,14 @@ const LoginView = ()=>{
         });
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+        onSubmit: handleSubmit,
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                 children: [
                     "Username:",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "text"
+                        type: "text",
+                        onChange: (e)=>setUsername(e.target.value)
                     }, void 0, false, {
                         fileName: "src/components/login-view/login-view.jsx",
                         lineNumber: 41,
@@ -28448,16 +28450,17 @@ const LoginView = ()=>{
                 children: [
                     "Password:",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "password"
+                        type: "password",
+                        onChange: (e)=>setPassword(e.target.value)
                     }, void 0, false, {
                         fileName: "src/components/login-view/login-view.jsx",
-                        lineNumber: 45,
+                        lineNumber: 48,
                         columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 43,
+                lineNumber: 46,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -28465,7 +28468,7 @@ const LoginView = ()=>{
                 children: "Submit"
             }, void 0, false, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 47,
+                lineNumber: 53,
                 columnNumber: 5
             }, undefined)
         ]
@@ -28475,7 +28478,7 @@ const LoginView = ()=>{
         columnNumber: 3
     }, undefined);
 };
-_s(LoginView, "FcwgZvIwPLlIL7BfOxqi7zn1KzY=");
+_s(LoginView, "Lrw7JeD9zj6OUWhT/IH4OIvPKEk=");
 _c = LoginView;
 var _c;
 $RefreshReg$(_c, "LoginView");
@@ -28509,7 +28512,7 @@ const SignupView = ()=>{
         const data = {
             Username: username,
             Password: password,
-            Emial: email,
+            Email: email,
             Birthday: birthday
         };
         fetch("https://moviewebapp.herokuapp.com/users", {
