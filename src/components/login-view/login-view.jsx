@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-export const LoginView = () => {
+export const LoginView = ({onLoggedIn}) => {
   const [username, setUnsername] = useState("");
   const [password, setPassword] = useState("");
   const handleSubmit = (event) => {
@@ -35,14 +35,20 @@ export const LoginView = () => {
 }
 
 return (
-  <form>
+  <form onSubmit={handleSubmit}>
     <label>
       Username:
-      <input type="text"/>
+      <input 
+      type="text"
+      onChange={(e) => setUsername(e.target.value)}
+      />
     </label>
     <label>
       Password:
-      <input type="password"/>
+      <input 
+      type="password"
+      onChange={(e) => setPassword(e.target.value)}
+      />
     </label>
     <button type="submit">Submit</button>
   </form>
