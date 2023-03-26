@@ -1,7 +1,3 @@
-.my-flix {
-  color: #4682b4;
-}
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -12037,4 +12033,8 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=index.ce1d6491.css.map */
+.my-flix {
+  color: #4682b4;
+}
+
+/*# sourceMappingURL=index.ab0485ab.css.map */
