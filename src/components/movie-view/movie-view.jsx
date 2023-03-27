@@ -8,7 +8,7 @@ export const MovieView = ({ movies }) => {
   const movie = movies.find((m) => m._id === movieId);
 
   return (
-    <div>
+    <>
       <div>
         <div>
           < img className ="w-100" src={movie.imagePath} alt="the movie poster" />
@@ -44,6 +44,6 @@ export const MovieView = ({ movies }) => {
           </Col>
         ))}
       </Row>
-    </div>
+    </>
   );
 };
