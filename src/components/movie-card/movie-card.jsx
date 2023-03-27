@@ -3,12 +3,20 @@ import { Button, Card } from "react-bootstrap";
 
 export const MovieCard = ({ movie, onMovieClick }) => {
   return (
-    <Card>
+    <Card className="h-100"
+      onClick={() =>{
+        onMovieClick(movie);
+      }}
+    >
       <Card.Img variant="top" src={movie.image} />
       <Card.Body>
         <Card.Title>{movie.Title}</Card.Title>
         <Card.Text>{movie.Director}</Card.Text>
-        <Button onClick={() => onMovieClick(movie)}variant="link">
+        <Button 
+          onClick={() => {
+            onMovieClick(movie);
+          }}
+        >
           Open
         </Button>
       </Card.Body>
@@ -19,7 +27,7 @@ export const MovieCard = ({ movie, onMovieClick }) => {
 //here is where we define all the props constraints for the MovieCard
 MovieCard.propTypes = {
   movie: PropTypes.shape({
-    //title: PropTypes.string.isRequired
+    title: PropTypes.string.isRequired
 //    image: PropTypes.string.isRequired,
 //    director: PropTypes.string
   }).isRequired,
