@@ -47317,7 +47317,7 @@ $RefreshReg$(_c, "ProfileView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","./update-user":"2SBwg","./favorite-movies":"dTTQH","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6","react-router-dom":"9xmpe"}],"2SBwg":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","./update-user":"2SBwg","./favorite-movies":"dTTQH","react-router-dom":"9xmpe","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6"}],"2SBwg":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$95d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -47555,7 +47555,7 @@ const FavoriteMovies = ({ user , movies  })=>{
     const [password, setPassword] = (0, _react.useState)(null);
     const [email, setEmail] = (0, _react.useState)(null);
     const [birthday, setBirthday] = (0, _react.useState)(null);
-    const [FavoritesMovies, setFavoriteMovies] = (0, _react.useState)([]);
+    const [favoriteMovies, setFavoriteMovies] = (0, _react.useState)([]);
     const [allMovies] = (0, _react.useState)(storedMovies ? storedMovies : movies);
     const [filteredMovies, setFilteredMovies] = (0, _react.useState)([]);
     const getUser = (token)=>{
@@ -47621,7 +47621,7 @@ const FavoriteMovies = ({ user , movies  })=>{
     };
     _s1(getUser, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 };
-_s(FavoriteMovies, "W4eMrVrUCdytCtsICONS9T5N7eY=");
+_s(FavoriteMovies, "Ep+ltUrCAwnI6MVL8Kbw9mw5oSs=");
 _c = FavoriteMovies;
 var _c;
 $RefreshReg$(_c, "FavoriteMovies");
