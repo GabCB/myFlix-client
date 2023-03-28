@@ -13,7 +13,7 @@ export const FavoriteMovies = ({user, movies}) => {
   const [password, setPassword] = useState (null);
   const [email, setEmail] = useState (null);
   const [birthday, setBirthday] = useState (null);
-  const [FavoritesMovies, setFavoriteMovies] = useState ([]);
+  const [favoriteMovies, setFavoriteMovies] = useState ([]);
   const [allMovies] = useState(storedMovies ? storedMovies: movies );
   const [filteredMovies, setFilteredMovies] = useState ([]);
 
