@@ -4,6 +4,7 @@ import { MovieView } from "../movie-view/movie-view";
 import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
 import { NavigationBar } from "../navigation-bar/navigation-bar";
+import { ProfileView } from "../profile-view/profile-view";
 import { Col, Row } from "react-bootstrap";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
@@ -97,13 +98,25 @@ export const MainView = () => {
               </>
             }
           />
+          <Route
+            path="/profile"
+            element={
+              <>
+                {!user ? (
+                  <Navigate to="/login" replace />
+                ) : (
+                  <ProfileView user={user} movies={movies} token={token} />
+                )}
+              </>
+            }
+          />
         </Routes>
       </Row>
     </BrowserRouter>
   );
 };
 
-//export default MainView;
+export default MainView;
   /*return (
     <BrowserRouter>
       <Row className="justify-content-md-center" style={{border: "1px solid red"}}>
