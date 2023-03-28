@@ -1,45 +1,73 @@
-import { Button, Row, Col } from "react-bootstrap";
+import { useState, useEffect } from "react"; 
 import { MovieCard } from "../movie-card/movie-card";
+import { UpdateUser } from "./update-user";
+import { FavoriteMovies } from "./favorite-movies";
+import { Link } from "react-router-dom";
+import { Button, Row, Col, Container, Form, Card } from "react-bootstrap";
+
 //import { Link } from "react-router-dom";
-export const ProfileView = ({
-  movies,
-  user,
-  onUsernameUpdate,
-  onDeregister,
-}) => {
+export const ProfileView = ({user, movies}) => {
+  const storedUser = localStorage.getItem("user");
+  const storedToken = localStorage.getItem("token");
+  const storedMovies = JSON.parse(localStorage.getItem("movies"));
+
+  const [token] = useState(storedToken ? storedToken: null);
+  const [username, setUsername] = useState(user.Username);
+  const [password, setPassword] = useState(user.Password);
+  const [email, setEmail] = useState(user.Email);
+  const [birthday, setBirthday] = useState(user.Birthday);
+  const [favoriteMovies, setFavoriteMovies] = useState ([]);
+  const [allMovies] = useState(storedMovies ? storedMovies: movies );
+  const [filteredMovies, setFilteredMovies] = useState ([]);
+
+  //show updated user on the profile
+  const getUser = (token) => {
+    fetch("https://moviewebapp.herokuapp.com/users/${user.Username}", {
+      method: "GET",
+      headers: { Authorization: `Bearer ${token}` },
+  }).then(response => response.json())
+  .then ((response) => {
+    console.log("getUser response", response);
+    setUsername(response.Username);
+    setEmail(response.Email);
+    setPassword(response.Password);
+    setBirthday(response.Birthday);
+    setFavoriteMovies(response.FavoriteMovies)
+  })
+}
+console.log("userFavoriteMovie", favoriteMovies)
+
+useEffect(() => {
+  getUser(token);
+}, [])
+
+
   return (
-    <>
-      <h1 className="text-danger">Profile</h1>
-      <div>
-        <div>
-          <span className="text-danger">Name: </span>
-          <span className="text-danger">{username}</span>
-          <Button onClick={onUsernameUpdate}>Update</Button>
-        </div>
-        <div>
-          <span className="text-danger">Email</span>
-          <span className="text-danger">{email}</span>
-        </div>
-        <div>
-          <span className="text-danger">Brithday: </span>
-          <span className="text-danger">{birthday}</span>
-        </div>
-        <div>
-          <Button onClick={onDeregister}>Deregister</Button>
-        </div>
-      </div>
+    <Container>
       <Row>
-        {movies
-          .filter((m) => user.favouriteMovies.includes(m._id))
-          .map((m) => (
-            <>
-              <Col md={6} key={movie._id}>
-                <MovieCard movie={m} />
-              </Col>
-              <Button>Remove</Button>
-            </>
-          ))}
+        <Col>
+          <Card>
+            <Card.Body>
+              <div>
+                <h4>User Information</h4>
+                <p>Username: {username}</p>
+                <p>Birthday: {birthday}</p>
+                <p>e-mail: {email}</p>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Body>
+              <UpdateUser user={user} />
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
-    </>
-  );
+      <Row>
+        <FavoriteMovies user={user} movies={movies} />
+      </Row>
+    </Container>
+  )
 };
