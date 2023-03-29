@@ -15,30 +15,30 @@ export const MovieView = ({ movies }) => {
           < img className ="w-100" src={movie.ImagePath} alt="the movie poster" />
         </div>
         <div>
-          <span className="text-danger">Title: </span>
-          <span className="text-danger">{movie.Title}</span>
+          <span>Title: </span>
+          <span>{movie.Title}</span>
         </div>
         <div>
-          <span className="text-danger">Description: </span>
-          <span className="text-danger">{movie.Description}</span>
+          <span>Description: </span>
+          <span>{movie.Description}</span>
         </div>
         <div>
-          <span className="text-danger">Genre: </span>
-          <span className="text-danger">{movie.Genre.Name}</span>
+          <span>Genre: </span>
+          <span>{movie.Genre.Name}</span>
         </div>
         <div>
-          <span className="text-danger">Director: </span>
-          <span className="text-danger">{movie.Director.Name}</span>
+          <span>Director: </span>
+          <span>{movie.Director.Name}</span>
         </div>
         <Link to={`/`}>
           <button className="back-button">Back</button>
         </Link>
       </div>
       <br />
-      <h2 className="text-danger">Similar movies</h2>
+      <h2>Similar movies</h2>
       <Row>
         {movies
-        .filter((m) => m.Genre.Name === movie.Genre.Name)
+        .filter((m) => m.Genre.Name === movie.Genre.Name && m._id != movie._id)
         .map((m) => (
           <Col md={6} key={movie._id}>
             <MovieCard movie={m} />
