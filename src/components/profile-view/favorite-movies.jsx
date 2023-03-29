@@ -18,7 +18,7 @@ export const FavoriteMovies = ({user, movies}) => {
   const [filteredMovies, setFilteredMovies] = useState ([]);
 
 const getUser = (token) => {
-  fetch("https://moviewebapp.herokuapp.com/users/${user.Username}", {
+  fetch(`https://moviewebapp.herokuapp.com/users/${user.Username}`, {
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },
   }).then(response => response.json())
