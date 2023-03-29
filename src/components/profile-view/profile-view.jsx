@@ -22,7 +22,7 @@ export const ProfileView = ({user, movies}) => {
 
   //show updated user on the profile
   const getUser = (token) => {
-    fetch("https://moviewebapp.herokuapp.com/users/${user.Username}", {
+    fetch(`https://moviewebapp.herokuapp.com/users/${user.Username}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
   }).then(response => response.json())
