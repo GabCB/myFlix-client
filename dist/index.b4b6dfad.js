@@ -47605,6 +47605,6 @@ $RefreshReg$(_c, "FavoriteMovies");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../profile-view/profile-view":"2vVqf","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6"}],"lJZlQ":[function() {},{}]},["lptRd","hRLh2","d8Dch"], "d8Dch", "parcelRequirea9e5")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","react":"21dqq","react-bootstrap":"3AD9A","../movie-card/movie-card":"bwuIu","../profile-view/profile-view":"2vVqf"}],"lJZlQ":[function() {},{}]},["lptRd","hRLh2","d8Dch"], "d8Dch", "parcelRequirea9e5")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
