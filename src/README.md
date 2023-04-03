@@ -1,14 +1,28 @@
 # My Flix App (Cilent Side)
 
 ## Table of Contents
-- [Overview] (#overview)
+-[Overview](#overview)
+-[Essential Views & Features](#essential-views--features)
+  -[Movie View](#movie-view)
+  -[Login View](#login-view)
+  -[Signup View](#signup-view)
+  -[Profile View](#profile-view)
+-[Process](#process)
+  -[Techologies](#built-with)
+  -[Dependencies](#dependencies)
+  -[Dev Dependencies](#dev-dependencies)
+  -[Linting Configuration](#it-also-uses-the-following-linting-configuration)
+  -[API documentation](#api-documentation)
+-[Links](#links)
+
+
 
 ## Overview
 myFlix is an app which main function is to provide users information (title, description, genre, director) about different movies.
 
 In this app users can register, update their personal information, manage a list of their favorite movies and delete their account.
 
-This client-side User Interface is connected to a REST API and a Mongo database that have [been developed previously](https://github.com/GabCB/movie-web-app)
+This client-side User Interface is connected to a REST API and a Mongo database that have [have been developed previously](https://github.com/GabCB/movie-web-app)
 
 ## Essential Views & Features
 Returns ALL movies to the user (each movie item with an image, title, and description)
