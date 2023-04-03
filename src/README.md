@@ -22,7 +22,7 @@ myFlix is an app which main function is to provide users information (title, des
 
 In this app users can register, update their personal information, manage a list of their favorite movies and delete their account.
 
-This client-side User Interface is connected to a REST API and a Mongo database that have [have been developed previously](https://github.com/GabCB/movie-web-app)
+This client-side User Interface is connected to a REST API and a Mongo database that have have been [developed](https://github.com/GabCB/movie-web-app) previously.
 
 ## Essential Views & Features
 Returns ALL movies to the user (each movie item with an image, title, and description)
