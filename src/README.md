@@ -7,7 +7,7 @@ myFlix is an app which main function is to provide users information (title, des
 
 In this app users can register, update their personal information, manage a list of their favorite movies and delete their account.
 
-This client-side User Interface is connected to a REST API and a Mongo database that have [been developed previously] (https://github.com/GabCB/movie-web-app)
+This client-side User Interface is connected to a REST API and a Mongo database that have [been developed previously](https://github.com/GabCB/movie-web-app)
 
 ## Essential Views & Features
 Returns ALL movies to the user (each movie item with an image, title, and description)
@@ -51,12 +51,12 @@ Ability to navigate to Profile view
 - Prettier configuration
 
 ### API documentation
-Information about the [API] (https://github.com/GabCB/movie-web-app) used in this project can be found [here](https://moviewebapp.herokuapp.com/documentation.html) 
+Information about the [API](https://github.com/GabCB/movie-web-app) used in this project can be found [here](https://moviewebapp.herokuapp.com/documentation.html) 
 
 ## Links
 [Live site URL]
-[Code URL] (https://github.com/GabCB/myFlix-client/tree/myFlix-client_3.9)
-[API Url] (https://moviewebapp.herokuapp.com/)
+[Code URL](https://github.com/GabCB/myFlix-client/tree/myFlix-client_3.9)
+[API Url](https://moviewebapp.herokuapp.com/)
 
 ## Acknowledgments
 
