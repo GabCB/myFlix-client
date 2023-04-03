@@ -1,11 +1,5 @@
 # My Flix App (Cilent Side)
 
-<p align="center">
-  <img rel="icon" href="./img/main-view.png" />
-  
-</p>
-
-
 ## Table of Contents
 
 - [Overview](#overview)
