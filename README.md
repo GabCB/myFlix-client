@@ -70,8 +70,8 @@ Ability to navigate to Profile view
 Information about the [API](https://github.com/GabCB/movie-web-app) used in this project can be found [here](https://moviewebapp.herokuapp.com/documentation.html).
 
 ## Links
-[Live site URL]
-[Code URL](https://github.com/GabCB/myFlix-client/tree/myFlix-client_3.9)
+[Live site URL] <br>
+[Code URL](https://github.com/GabCB/myFlix-client/tree/myFlix-client_3.9) <br>
 [API Url](https://moviewebapp.herokuapp.com/)
 
 ## Acknowledgments
