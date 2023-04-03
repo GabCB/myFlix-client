@@ -17,21 +17,21 @@ Ability to log out
 Ability to navigate to Profile view
 
 ### Movie View:
-● Returns data (description, genre, director, image) about a single movie to the user
-● Allows users to add a movie to their list of favorite
+- Returns data (description, genre, director, image) about a single movie to the user
+- Allows users to add a movie to their list of favorite
 
 ### Login View:
-● Allows users to log in with a username and password
+- Allows users to log in with a username and password
 
 ### Signup view
-● Allows new users to register (username, password, email, date of birth)
+- Allows new users to register (username, password, email, date of birth)
 
 ### Profile view
-● Displays user registration details
-● Allows users to update their info (username, password, email, date of birth)
-● Displays favorite movies
-● Allows users to remove a movie from their list of favorites
-● Allows existing users to delete the account
+- Displays user registration details
+- Allows users to update their info (username, password, email, date of birth)
+- Displays favorite movies
+- Allows users to remove a movie from their list of favorites
+- Allows existing users to delete the account
 
 ## Process
 
@@ -55,8 +55,8 @@ Information about the [API] (https://github.com/GabCB/movie-web-app) used in thi
 
 ## Links
 [Live site URL]
-[Code URL]
-[API Url]
+[Code URL] (https://github.com/GabCB/myFlix-client/tree/myFlix-client_3.9)
+[API Url] (https://moviewebapp.herokuapp.com/)
 
 ## Acknowledgments
 
