@@ -1,5 +1,12 @@
 # My Flix App (Cilent Side)
 
+<a name="readme-top"></a>
+<div align="center">
+  <img src=".img/main-view.PNG" alt="logo" width="auto"  height="auto" />
+  <br/>
+  
+</div>
+
 ## Table of Contents
 
 - [Overview](#overview)
