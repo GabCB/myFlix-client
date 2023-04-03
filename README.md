@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
--[Overview](#overview)
--[Essential Views & Features](#essential-views--features)
--[Movie View](#movie-view)
--[Login View](#login-view)
--[Signup View](#signup-view)
--[Profile View](#profile-view)
--[Process](#process)
--[Techologies](#built-with)
--[Dependencies](#dependencies)
--[Dev Dependencies](#dev-dependencies)
--[Linting Configuration](#it-also-uses-the-following-linting-configuration)
--[API documentation](#api-documentation)
--[Links](#links)
+- [Overview](#overview)
+- [Essential Views & Features](#essential-views--features)
+  - [Movie View](#movie-view)
+  - [Login View](#login-view)
+  - [Signup View](#signup-view)
+  - [Profile View](#profile-view)
+- [Process](#process)
+  - [Techologies](#built-with)
+  - [Dependencies](#dependencies)
+  - [Dev Dependencies](#dev-dependencies)
+  - [Linting Configuration](#it-also-uses-the-following-linting-configuration)
+- [API documentation](#api-documentation)
+- [Links](#links)
 
 
 
