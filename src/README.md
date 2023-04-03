@@ -1,6 +1,7 @@
 # My Flix App (Cilent Side)
 
 ## Table of Contents
+
 -[Overview](#overview)
 -[Essential Views & Features](#essential-views--features)
   -[Movie View](#movie-view)
