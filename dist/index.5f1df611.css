@@ -6,6 +6,23 @@
   padding: 4px 12px;
 }
 
+a.logo, a.logo:visited {
+  color: #2f4858;
+  font-weight: bold;
+}
+
+a.logo:hover, a.logo:active {
+  color: #1d2d37;
+}
+
+.back-button {
+  color: #f5f5f5;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
 .my-flix {
   color: #4682b4;
 }
