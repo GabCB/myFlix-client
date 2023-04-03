@@ -1,6 +1,7 @@
 # My Flix App (Cilent Side)
+
 <p align="center">
-  <img src="img/main-view.png" width="350" title="hover text">
+  <img src="./img/main-view.png" />
   
 </p>
 
