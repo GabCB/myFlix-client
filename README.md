@@ -59,8 +59,18 @@ Ability to navigate to Profile view
 - CSS
 
 ### Dependencies:
+- "bootstrap": "^5.2.3",
+- "prop-types": "^15.8.1",
+- "react": "^18.2.0",
+- "react-bootstrap": "^2.7.2",
+- "react-dom": "^18.2.0",
+- "react-router": "^6.9.0",
+- "react-router-dom": "^6.9.0",
+- "react-toastify": "^9.1.2"
 
 ### Dev Dependencies:
+- "@parcel/transformer-sass": "^2.8.3",
+- "process": "^0.11.10"
 
 ### It also uses the following linting configuration:
 - ESLint rules
