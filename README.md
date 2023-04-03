@@ -1,15 +1,8 @@
-<a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="./img/main-view.png" alt="main view" />
-  <br/>
-  <h3>My Flix App</h3>
-  
-</div>
-
 # My Flix App (Cilent Side)
-
+<p align="center">
+  <img src="img/main-view.png" width="350" title="hover text">
+  
+</p>
 
 
 ## Table of Contents
