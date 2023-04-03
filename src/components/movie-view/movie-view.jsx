@@ -60,7 +60,7 @@ export const MovieView = ({ movies }) => {
 
   return (
     <Card>
-      <Card.Img className ="w-100" src={movie.ImagePath} alt="the movie poster" />
+      <Card.Img className ="h-50" src={movie.ImagePath} alt="the movie poster" />
       <Card.Body>
         <Card.Title>{movie.Title}</Card.Title>
         <Card.Text>Description: {movie.Description}</Card.Text>

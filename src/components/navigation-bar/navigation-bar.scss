@@ -1,0 +1,14 @@
+$primary: #2f4858;
+$primary-darker: #1d2d37;
+
+
+a.logo,
+a.logo:visited {
+  color: $primary;
+  font-weight: bold;
+}
+
+a.logo:hover,
+a.logo:active {
+  color: $primary-darker;
+}
