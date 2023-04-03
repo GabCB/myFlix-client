@@ -1,7 +1,7 @@
 # My Flix App (Cilent Side)
 
 <p align="center">
-  <img src="./img/main-view.png" />
+  <img rel="icon" href="./img/main-view.png" />
   
 </p>
 
