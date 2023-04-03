@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./img/main-view.png" alt="main-view" width="auto"  height="auto" />
+  <img src="./img/main-view.png" alt="main view" />
   <br/>
   <h3>My Flix App</h3>
   
