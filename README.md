@@ -15,7 +15,7 @@
   - [Linting Configuration](#it-also-uses-the-following-linting-configuration)
 - [API documentation](#api-documentation)
 - [Links](#links)
-
+- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -83,6 +83,7 @@ Information about the [API](https://github.com/GabCB/movie-web-app) used in this
 [Live site URL] <br>
 [Code URL](https://github.com/GabCB/myFlix-client/tree/myFlix-client_3.9) <br>
 [API Url](https://moviewebapp.herokuapp.com/)
+
 
 ## Acknowledgments
 
