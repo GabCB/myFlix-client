@@ -27456,7 +27456,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6","../search-bar/search-bar":"1N8tt"}],"bwuIu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","../search-bar/search-bar":"1N8tt","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6"}],"bwuIu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$67b2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -47173,7 +47173,7 @@ $RefreshReg$(_c, "NavigationBar");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6","prop-types":"7wKI2","./navigation-bar.scss":"dnXvl"}],"dnXvl":[function() {},{}],"2vVqf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","prop-types":"7wKI2","react-router-dom":"9xmpe","./navigation-bar.scss":"dnXvl","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6"}],"dnXvl":[function() {},{}],"2vVqf":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$3c12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -47357,7 +47357,7 @@ $RefreshReg$(_c, "ProfileView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./update-user":"2SBwg","./favorite-movies":"dTTQH","react-router-dom":"9xmpe","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6","prop-types":"7wKI2","./profile-view.scss":"eyKYH"}],"2SBwg":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react-bootstrap":"3AD9A","./update-user":"2SBwg","./favorite-movies":"dTTQH","react-router-dom":"9xmpe","./profile-view.scss":"eyKYH","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6"}],"2SBwg":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$95d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -47659,7 +47659,7 @@ $RefreshReg$(_c, "FavoriteMovies");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../movie-card/movie-card":"bwuIu","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6","prop-types":"7wKI2"}],"eyKYH":[function() {},{}],"1N8tt":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react-bootstrap":"3AD9A","../movie-card/movie-card":"bwuIu","@parcel/transformer-js/src/esmodule-helpers.js":"fdGiz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6FxB6"}],"eyKYH":[function() {},{}],"1N8tt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0fb4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
