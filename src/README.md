@@ -51,7 +51,7 @@ Ability to navigate to Profile view
 - Prettier configuration
 
 ### API documentation
-Information about the [API](https://github.com/GabCB/movie-web-app) used in this project can be found [here](https://moviewebapp.herokuapp.com/documentation.html) 
+Information about the[API](https://github.com/GabCB/movie-web-app) used in this project can be found [here](https://moviewebapp.herokuapp.com/documentation.html) 
 
 ## Links
 [Live site URL]
