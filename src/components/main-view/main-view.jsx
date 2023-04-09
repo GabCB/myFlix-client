@@ -8,6 +8,8 @@ import { ProfileView } from "../profile-view/profile-view";
 import { SearchBar } from "../search-bar/search-bar";
 import { Col, Row } from "react-bootstrap";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
@@ -37,7 +39,20 @@ export const MainView = () => {
   };
 
   useEffect(
-    function () {
+      function () {
+        if (localStorage.getItem("user")){
+
+            setUser(JSON.parse(localStorage.getItem("user")));
+
+            fetch("https://moviewebapp.herokuapp.com/movies", {
+                headers: { Authorization: `Bearer ${token}`, }
+            })
+                .then((response) => response.json())
+                .then((movies) => {
+                    setMovies(movies);
+                });
+
+        }
       if (!userQuery) {
         setFilteredMovies([]);
       } else {
@@ -61,6 +76,7 @@ export const MainView = () => {
     <BrowserRouter>
     <NavigationBar user={user} onLoggedOut={() => {setUser(null); setToken(null); localStorage.clear(); }} />
 <Row className="justify-content-md-center">
+    <ToastContainer />
   <Routes>
     <Route
 path="/signup"
@@ -85,8 +101,11 @@ element={
                 ) : (
                   <Col md={5}>
                     <LoginView onLoggedIn={(user, token) => {
+                        alert(JSON.stringify(user))
                       setUser(user);
-                      setToken(token);}} />
+                      setToken(token);
+
+                    }} />
                   </Col>
                 )}
               </>

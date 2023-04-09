@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
     "react-dom": "^18.2.0",
     "react-router": "^6.9.0",
     "react-router-dom": "^6.9.0",
-    "react-toastify": "^9.1.2"
+    "react-toastify": "^9.1.2",
+    "parcel": "^2.8.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",

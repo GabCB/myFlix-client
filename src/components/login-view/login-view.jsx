@@ -2,7 +2,7 @@ import { useState } from "react";
 //import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-
+import {toast} from "react-toastify";
 
 export const LoginView = ({onLoggedIn}) => {
   const [username, setUsername] = useState("");
@@ -29,7 +29,16 @@ export const LoginView = ({onLoggedIn}) => {
       localStorage.setItem("token", data.token);
       onLoggedIn(data.user, data.token);
     } else {
-      alert("No such user");
+      toast.error('Failed to login with message ! '+data.message, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     }
   })
   .catch((e) => {
