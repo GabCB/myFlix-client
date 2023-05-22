@@ -1,5 +1,7 @@
 # My Flix App (Cilent Side)
 
+![My Flix App- Client](https://i.imgur.com/MMMjuEV.png)
+
 ## Table of Contents
 
 - [Overview](#overview)
